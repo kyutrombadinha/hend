@@ -1,7 +1,7 @@
 const { create, Client } = require('@open-wa/wa-automate')
 const figlet = require('figlet')
 //const options = require('./utils/options')
-const { color, messageLog } = require('./utils')
+//const { color, messageLog } = require('./utils')
 const HandleMsg = require('./HandleMsg')
 
 const start = (aruga = new Client()) => {
